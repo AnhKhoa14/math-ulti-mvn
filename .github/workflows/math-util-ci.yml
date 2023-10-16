@@ -23,10 +23,10 @@ jobs:                                  # làm những việc dưới đây
 
     steps:
     - uses: actions/checkout@v3        # 2. Download code về server vừa mượn
-    - name: Set up JDK 17              # 3. Cài jdk server
+    - name: Set up JDK 18              # 3. Cài jdk server
       uses: actions/setup-java@v3
       with:
-        java-version: '17'
+        java-version: '18'
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven (tạo .jar .war) # 4. Mượn maven và chạy lệnh huyền thoại
