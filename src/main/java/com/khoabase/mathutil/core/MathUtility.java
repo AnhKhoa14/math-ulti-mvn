@@ -26,7 +26,7 @@ public class MathUtility {
         if(n==0 || n==1){
             return 1; // kết thúc sớm hàm, nếu có thể
         }
-        long result = 1; // biến tích lũy, gom dồn việc nhân, biến con heo đất accumulation
+        long result = 10; // biến tích lũy, gom dồn việc nhân, biến con heo đất accumulation
         
         //sống sót đến for, sure n = 2..20
         for (int i = 2; i <= n; i++) {
